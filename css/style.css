@@ -1,0 +1,102 @@
+/*roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*Quicksand*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 62.5%;
+
+    /* 1rem = 10px */
+
+
+}
+
+body {
+    font-family: 'Roboto', 'Quicksand', sans-serif;
+
+}
+
+::root {
+
+    --cor--laranja: #ED7839;
+    --cor--sobreado: #FDF1EB;
+    --cor--titulo: #4E4E4E;
+    --cor-titulo-sec: #725C5C;
+}
+
+
+
+
+.sidebar {
+    background: rgba(255, 0, 0, 0.189);
+    width: 22rem;
+    height: 100vh;
+    border-right: 1px;
+    -webkit-box-shadow: 0px 0px 15px -3px #000000;
+    box-shadow: 0px 0px 15px -3px #000000;
+}
+
+.logomarca h2 {
+    width: 22rem;
+    height: 6.8rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logomarca img {
+    width: 22rem;
+    height: 25.8rem;
+}
+
+.sidebar ul li a{
+
+    height: 3.5rem;
+    width: 22rem;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2.4rem;
+    border-bottom: 1px #796b6bb7 solid;
+    color: var(--cor-titulo-sec);
+}
+
+.active {
+    background: var(--cor-tom-branco);
+    border-left: 1rem solid transparent;
+    border-image: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    border-image-slice: 1;
+
+}
+
+
+.container {
+    background: rgba(214, 159, 159, 0.549);
+    width: 84vw;
+    height: 10px;
+}
+
+.header {
+    background: rgba(255, 0, 166, 0.393);
+    width: 84vw;
+    height: 6.8rem;
+}
+
+.section {
+    background: rgba(6, 160, 190, 0.389);
+
+}
