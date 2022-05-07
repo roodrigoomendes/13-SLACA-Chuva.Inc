@@ -12,15 +12,12 @@
     list-style-type: none;
     text-decoration: none;
     font-size: 62.5%;
-
     /* 1rem = 10px */
-
-
 }
 
 body {
     font-family: 'Roboto', 'Quicksand', sans-serif;
-
+    display: flex;
 }
 
 ::root {
@@ -28,19 +25,14 @@ body {
     --cor--laranja: #ED7839;
     --cor--sobreado: #FDF1EB;
     --cor--titulo: #4E4E4E;
-    --cor-titulo-sec: #725C5C;
+    --cor--titulo-2: #725C5C;
 }
 
-
-
-
-.sidebar {
-    background: rgba(255, 0, 0, 0.189);
+aside {
     width: 22rem;
     height: 100vh;
-    border-right: 1px;
-    -webkit-box-shadow: 0px 0px 15px -3px #000000;
-    box-shadow: 0px 0px 15px -3px #000000;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
+    position: fixed;
 }
 
 .logomarca h2 {
@@ -61,8 +53,7 @@ body {
     height: 25.8rem;
 }
 
-.sidebar ul li a{
-
+aside ul li a {
     height: 3.5rem;
     width: 22rem;
     font-family: 'Quicksand';
@@ -80,14 +71,15 @@ body {
     border-left: 1rem solid transparent;
     border-image: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
     border-image-slice: 1;
-
 }
 
 
 .container {
     background: rgba(214, 159, 159, 0.549);
-    width: 84vw;
+    margin-left: 22rem;
+    width: calc(100vw - 22rem);
     height: 10px;
+
 }
 
 .header {
@@ -98,5 +90,4 @@ body {
 
 .section {
     background: rgba(6, 160, 190, 0.389);
-
 }
