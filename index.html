@@ -79,7 +79,8 @@
                 <img src="./assets/perfil.svg" alt="foto de perfil">
             </div>
         </header>
-        <div class="post__video">
+
+        <section class="post__video">
             <div class="header__video">
                 <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do
                     município de Campinas/SP</h2>
@@ -91,12 +92,11 @@
                 </div>
             </div>
             <div class="video">
-                <iframe  src="https://www.youtube.com/embed/I4aSkNnfxhM"
-                    title="YouTube video player" frameborder="0"
+                <iframe src="https://www.youtube.com/embed/I4aSkNnfxhM" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
                 <article class="detalhes_video">
-                    <h2>Detalhes</h2>
+                    <h2 class="titulos_post">Detalhes</h2>
                     <div class="texto__detalhe">
                         <p class="primeira__descricao">Tipo de Apresentação: <strong>Pôster</strong>
                             <br>
@@ -131,14 +131,62 @@
                     </div>
                 </article>
             </div>
-        </div>
+        </section>
+
+        <section class="post__resumo ">
+            <h2 class="titulos_post">Resumo</h2>
+            <p onclick="leiaMais()">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis
+                auctor, mollis felis ut,
+                commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros
+                sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec
+                finibus nisi tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum
+                lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida
+                eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus.
+                Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum. Etiam aliquam dictum
+                nisl, vel aliquet enim accumsan sit ametl accumsant <span id="pontos">...ver mais</span><span id="mais">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis
+                    ut,
+                    commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor
+                    eros
+                    sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec
+                    finibus nisi tellus, ut viverra lorem vestibulum ut. Phasellus condimentum orci id leo condimentum
+                    lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac
+                    gravida
+                    eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl
+                    metus.
+                    Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum. Etiam aliquam dictum
+                    nisl, vel aliquet enim accumsan sit ametl accumsant</span><span id="menos">...ver menos</span></p>
+
+        </section>
+
+        <section class="post__discussoes">
+            <h2 class="titulos_post">Discussões</h2>
+            <p>Compartilhe suas ideias ou dúvidas com os autores!</p>
+            <div class="discussoes__icones">
+                <img src="./assets/icone_mao.svg"
+                    alt="icone com suas maos apoiando uma planta simbolizando a coloboração">
+                <img src="./assets/icone_letra.svg" alt="icone com duas letras simbolizando a opiniao">
+                <img src="./assets/icone_comunicacao.svg" alt="icone de duas pessoas conversando">
+            </div>
+            <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus<br>
+                questionamentos ou sugestões para o autor!</p>
+            <div class="divisao__botao">
+                <button>
+                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="7" width="3" height="17" rx="1" fill="white" />
+                        <rect y="10" width="3" height="17" rx="1" transform="rotate(-90 0 10)" fill="white" />
+                    </svg> criar tópico
+                </button>
+            </div>
+        </section>
+
     </main>
 
 
 
 
 
-
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
