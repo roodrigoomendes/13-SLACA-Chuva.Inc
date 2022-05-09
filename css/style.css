@@ -26,8 +26,11 @@ body {
     --cor--sobreado: #FDF1EB;
     --cor--titulo: #4E4E4E;
     --cor--titulo-2: #725C5C;
+
 }
 
+
+/*======= NAVEGACAO LATERAL ==========================================*/
 aside {
     width: 22rem;
     height: 100vh;
@@ -74,21 +77,28 @@ aside ul li a {
 }
 
 
+/*=======CONTEUDO DA PAGINA=========================================*/
+
 main {
-    background: rgba(214, 159, 159, 0.549);
-    width: 135rem;
-    height: 100vh;
+    
     margin-left: 22rem;
 }
 
 
+
+/*======= HEADER DA PAGINA==========================================*/
+
 /* 30% de 135  = 40.5*  94.5* */
+
+
 header {
     width: 130rem;
     height: 6.8rem;
     color: var(--cor--titulo-2);
     font-family: "roboto";
     display: flex;
+    flex-wrap: wrap;
+    background-color: var(--cor--sobreado);
 }
 
 header p {
@@ -96,7 +106,7 @@ header p {
 }
 
 .titulos {
-    
+
     height: 6.8rem;
     margin-left: 3.7rem;
     display: flex;
@@ -105,14 +115,12 @@ header p {
 
 }
 
-
-
-
 .titulos h1 {
     font-size: 2.2rem;
     line-height: 26px;
     font-weight: 400;
-    margin-right: 11rem;
+    margin-right: 25rem;
+
 }
 
 header svg {
@@ -121,7 +129,6 @@ header svg {
 }
 
 .dados_perfil {
-
     margin-block: auto;
     margin-right: 0.6rem;
 }
@@ -135,7 +142,7 @@ header svg {
     font-size: 1.4rem;
 }
 
-.foto_perfil{
+.foto_perfil {
     margin-block: auto;
 
 }
@@ -146,10 +153,99 @@ header svg {
 }
 
 
+/*======= AREA DE VIDEO  ==========================================*/
 
+.post__video {
+    width: 105.9rem;
+    height: 50.6rem;
+    padding-bottom: 3rem;
 
+}
 
-.section {
+.header__video {
+    display: flex;
+}
 
-    background: rgba(6, 160, 190, 0.389);
+.header__video h2 {
+    width: 75rem;
+    height: 5.4rem;
+    font-weight: 900;
+    font-size: 2rem;
+    color: var(--cor--laranja);
+    letter-spacing: 0.05em;
+}
+
+.opcoes__video {
+    margin-left: 7.6rem;
+}
+
+.opcoes__video img {
+    margin-right: 0.5rem;
+}
+
+.opcoes__video h3 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    letter-spacing: 0.05em;
+    margin-top: 1.2rem;
+    color: #ED7839;
+    padding-bottom: 0.5rem;
+}
+
+.detalhes_video h2 {
+    margin-left: 3rem;
+    color: var(--cor--titulo);
+    background-color: var(--cor--sobreado);
+    width: 24.2rem;
+    height: 4.5rem;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    border: #ECECEC solid 1px;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.video {
+    display: flex;
+}
+
+.video iframe {
+    width: 78.4rem;
+    height: 43.9rem
+}
+
+.texto__detalhe {
+    height: 39.4rem;
+    width: 24.2rem;
+    padding: 1.5rem;
+    margin-left: 3rem;
+    border: #ECECEC solid 1px;
+}
+
+.primeira__descricao {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.primeira__descricao strong {
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+
+.autores {
+    font-size: 1.4rem;
+}
+
+.autores strong {
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.observacao__detalhes {
+    font-size: 1.2rem;
+    color: #ADA0A0;
+
 }
