@@ -312,9 +312,6 @@ span {
 
 .post__discussoes {
     width: 105.8rem;
-    background: #ED7839;
-
-
 }
 
 .post__discussoes h2 {
@@ -356,7 +353,7 @@ span {
     width: 5rem;
 }
 
-.divisao__botao{
+.divisao__botao {
     display: flex;
     margin-top: 1.4rem;
     justify-content: center;
@@ -365,7 +362,7 @@ span {
     width: 102.7rem;
 }
 
-button {
+#criar__topico {
     color: white;
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
     width: 13.3rem;
@@ -385,4 +382,79 @@ button {
 
 .post__discussoes svg {
     text-align: start;
+}
+
+#formulario {
+    display: none;
+}
+
+#formulario p {
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+#formulario label {
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--cor--laranja);
+}
+
+#txtassunto {
+    width: 102.5rem;
+    height: 3.9rem;
+    font-family: 'Quicksand';
+    font-size: 14px;
+    padding-left: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+#txtconteudo {
+    width: 102.5rem;
+    height: 8.2rem;
+    font-family: 'Quicksand';
+    font-size: 14px;
+
+}
+
+.barra__envio {
+    width: 102.5rem;
+    height: 3.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#salvar__topico {
+    width: 20.5rem;
+    height: 3.1rem;
+    color: white;
+    background: var(--cor--laranja);
+    border: none;
+    font-size: 1.5rem;
+}
+
+#cancelar__topico {
+    background-color: rgba(199, 57, 57, 0.827);
+    width: 20.5rem;
+    height: 3.1rem;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.ferramentas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CCCCCC;
+}
+
+.ferramentas img {
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    margin-left: 3rem;
+
 }

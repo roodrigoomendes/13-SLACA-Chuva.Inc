@@ -161,23 +161,53 @@
 
         <section class="post__discussoes">
             <h2 class="titulos_post">Discussões</h2>
-            <p>Compartilhe suas ideias ou dúvidas com os autores!</p>
-            <div class="discussoes__icones">
-                <img src="./assets/icone_mao.svg"
-                    alt="icone com suas maos apoiando uma planta simbolizando a coloboração">
-                <img src="./assets/icone_letra.svg" alt="icone com duas letras simbolizando a opiniao">
-                <img src="./assets/icone_comunicacao.svg" alt="icone de duas pessoas conversando">
+            <div id="discussoes__padrao">
+                <p>Compartilhe suas ideias ou dúvidas com os autores!</p>
+                <div class="discussoes__icones">
+                    <img src="./assets/icone_mao.svg"
+                        alt="icone com suas maos apoiando uma planta simbolizando a coloboração">
+                    <img src="./assets/icone_letra.svg" alt="icone com duas letras simbolizando a opiniao">
+                    <img src="./assets/icone_comunicacao.svg" alt="icone de duas pessoas conversando">
+                </div>
+                <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus<br>
+                    questionamentos ou sugestões para o autor!</p>
+                <div class="divisao__botao">
+                    <button onclick="criartopico()" id="criar__topico">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="7" width="3" height="17" rx="1" fill="white" />
+                            <rect y="10" width="3" height="17" rx="1" transform="rotate(-90 0 10)" fill="white" />
+                        </svg> criar tópico
+                    </button>
+                </div>
             </div>
-            <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus<br>
-                questionamentos ou sugestões para o autor!</p>
-            <div class="divisao__botao">
-                <button>
-                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="7" width="3" height="17" rx="1" fill="white" />
-                        <rect y="10" width="3" height="17" rx="1" transform="rotate(-90 0 10)" fill="white" />
-                    </svg> criar tópico
-                </button>
-            </div>
+
+            <section id="formulario">
+                <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p><br>
+                <label>Assunto</label><br>
+                <input type="text" id="txtassunto"
+                    placeholder="Defina um tópico sucinto para notificar os autores..." /><br>
+                <label>Conteúdo</label><br>
+                <input type="text" name="" id="txtconteudo"><br>
+                <div class="barra__envio">
+                    <div class="ferramentas">
+                        <img src="./assets/bold.svg" alt="">
+                        <img src="./assets/italic.svg" alt="">
+                    </div>
+                    <div>
+                        <button id="cancelar__topico" onclick="criartopico()">Cancelar</button>
+
+                        <button id="salvar__topico" onclick="">Enviar</button>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+            <hr>
+
         </section>
 
     </main>
