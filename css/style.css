@@ -101,6 +101,7 @@ header {
     font-family: "roboto";
     display: flex;
     background-color: var(--cor--sobreado);
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -159,6 +160,8 @@ header p {
 .post__video {
     display: flex;
     margin-top: 2.7rem;
+    flex-wrap: wrap;
+
 }
 
 .titulo__video {
@@ -239,6 +242,7 @@ strong {
 /*======= POST DE RESUMO  ==========================================*/
 
 .post__resumo {
+
     width: 105.8rem;
     margin-top: 3rem;
 
@@ -460,7 +464,7 @@ span {
 .postagens {
     margin-top: 1.7rem;
     padding-block: 1.7rem;
-    padding-left: 2.4rem;
+    padding-inline: 2.4rem;
     width: 102.5rem;
     box-shadow: 0px 0px 8px rgb(0 0 0 / 12%);
 }
@@ -489,6 +493,7 @@ span {
     line-height: 1.8rem;
     color: var(--cor--titulo);
     text-align: start;
+    cursor: pointer;
 }
 
 .informacao__post {
@@ -507,6 +512,44 @@ span {
     font-weight: 400;
     font-size: 1.4rem;
     color: #757575;
+}
+
+/* ############ HISTORICO DE POSTAGEM ################*/
+
+
+.postagens__resposta {
+
+    padding-block: 3.9rem;
+    padding-inline: 2.4rem;
+    width: 102.5rem;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 12%);
+}
+
+
+.postagens__resposta.autor{
+    background-color: #F8F8F8;
+}
+
+.referencia {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.referencia_autor {
+    color: var(--cor--laranja);
+    font-family: 'Quicksand';
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+
+}
+
+.sucesso__laranja {
+    margin-inline: 2.9rem;
+}
+
+.visualizar__historico{
 }
 
 /* ############ POSTAGEM CRIADA COM SUCESSO ################*/
@@ -573,3 +616,7 @@ footer {
     font-size: 1.8rem;
     font-weight: 400;
 }
+
+
+
+
