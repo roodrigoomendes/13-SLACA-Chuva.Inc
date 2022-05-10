@@ -17,7 +17,7 @@
 
 body {
     font-family: 'Roboto', 'Quicksand', sans-serif;
-    display: flex;
+
 }
 
 :root {
@@ -32,7 +32,7 @@ body {
 
 /*======= NAVEGACAO LATERAL ==========================================*/
 aside {
-    visibility: hidden;
+
     width: 22rem;
     height: 100vh;
     box-shadow: 0px 0px 10px rgb(0 0 0 / 25%);
@@ -85,7 +85,9 @@ aside {
 
 /*=======CONTEUDO DA PAGINA=========================================*/
 
-main {}
+main{
+    
+margin-left: 22%;}
 
 
 
@@ -95,7 +97,7 @@ main {}
 
 
 header {
-    padding-left: 0;
+    padding-left: 22%;
     color: var(--cor--titulo-2);
     font-family: "roboto";
     display: flex;
@@ -108,6 +110,7 @@ header p {
 }
 
 .titulos {
+    padding-right: 9rem;
     height: 6.8rem;
     display: flex;
     flex-direction: column;
@@ -124,7 +127,6 @@ header p {
 
 .traducao__perfil {
     margin-block: auto;
-    padding-left: auto;
     padding-right: 1rem;
     display: flex;
 }
@@ -192,7 +194,7 @@ iframe {
     margin-left: 3rem;
 }
 
-.titulo__post {
+.titulos__post{
     font-weight: 500;
     font-size: 2rem;
     color: var(--cor--titulo);
@@ -238,20 +240,9 @@ strong {
 /*======= POST DE RESUMO  ==========================================*/
 
 .post__resumo {
-    padding-left: 18%;
+width: 105.8rem;
+margin-top: 3rem;
     
-}
-
-.post__resumo h2 {
-    width: 105.8rem;
-    margin-top: 3rem;
-    color: var(--cor--titulo);
-    background-color: var(--cor--sobreado);
-    font-weight: 500;
-    font-size: 2rem;
-    line-height: 2.5rem;
-
-
 }
 
 .post__resumo p {
@@ -291,8 +282,11 @@ span {
 }
 
 .post__discussoes {
-
-    background-color: #725C5C;
+    width: 105.8rem;
+    margin-top: 3rem;
+    border: #ECECEC solid 1px;
+    padding-inline: 1.5rem;
+    padding-bottom: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -509,10 +503,10 @@ span {
 /* ############ FOOTER ################*/
 
 footer {
-    padding-left: 18%;
-    width: 100vw;
-    margin-top: 4.3rem;
+    width: 105.8rem;
+    margin-block: 4.3rem;
     display: flex;
+
 }
 
 .logo__galoa {
