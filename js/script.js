@@ -71,6 +71,7 @@ function adicionar__post() {
 }
 
 
+
 //FUNCAO VER HISTORICO RESPOSTA DE POSTAGEM>>>
 
 function historico__postagem() {

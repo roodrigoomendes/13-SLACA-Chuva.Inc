@@ -470,6 +470,7 @@ span {
 }
 
 .titulo__postagem {
+
     font-family: 'Quicksand';
     color: var(--cor--laranja);
     font-weight: 700;
@@ -526,7 +527,7 @@ span {
 }
 
 
-.postagens__resposta.autor{
+.postagens__resposta.autor {
     background-color: #F8F8F8;
 }
 
@@ -549,13 +550,14 @@ span {
     margin-inline: 2.9rem;
 }
 
-.visualizar__historico{
+.visualizar__historico {
+    display: none;
 }
 
 /* ############ POSTAGEM CRIADA COM SUCESSO ################*/
 
 #discussoes__sucesso {
-
+    padding-block: 1.5rem;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -616,7 +618,3 @@ footer {
     font-size: 1.8rem;
     font-weight: 400;
 }
-
-
-
-
