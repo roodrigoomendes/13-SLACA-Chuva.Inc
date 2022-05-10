@@ -171,12 +171,14 @@
             </div>
 
             <section id="formulario">
-                <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p><br>
+                <p class="titulo__form">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p><br>
                 <label class="assunto">Assunto</label><br>
                 <input type="text" id="txtassunto"
                     placeholder="Defina um tópico sucinto para notificar os autores..." /><br>
+
                 <label class="conteudo">Conteúdo</label><br>
                 <input type="text" name="" id="txtconteudo"><br>
+
                 <div class="barra__envio">
                     <div class="ferramentas">
                         <img src="./assets/bold.svg" alt="">
@@ -185,7 +187,7 @@
                     <div>
                         <button id="cancelar__topico" onclick="criartopico()">Cancelar</button>
 
-                        <button id="salvar__topico" onclick="">Enviar</button>
+                        <button id="salvar__topico" onclick="adicionar__post()">Enviar</button>
                     </div>
                 </div>
             </section>
@@ -195,7 +197,7 @@
 
             <div class="postagens__adicionadas">
                 <section class="postagens">
-                    <h3 class="titulo_postagem">Assunto da pergunta aparece aqui</h3>
+                    <h3 class="titulo__postagem">Assunto da pergunta aparece aqui</h3>
                     <label class="nome__postagem">Carlos Henrique Santos</label>
                     <br><br>
                     <label class="conteudo__postagem">Comecinho da pergunta aparece aqui resente relato inscreve-se no
@@ -210,7 +212,7 @@
                 </section>
 
                 <section class="postagens">
-                    <h3 class="titulo_postagem">Assunto da pergunta aparece aqui</h3>
+                    <h3 class="titulo__postagem">Assunto da pergunta aparece aqui</h3>
                     <label class="nome__postagem">Carlos Henrique Santos</label>
                     <br><br>
                     <label class="conteudo__postagem">Comecinho da pergunta aparece aqui resente relato inscreve-se no
@@ -229,6 +231,8 @@
 
         <div class="divisao__botao">
         </div>
+
+
         <footer>
             <div class="logo__galoa">
                 <img src="./assets/galoa.png" alt=""><br>

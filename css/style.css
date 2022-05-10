@@ -83,17 +83,16 @@ aside {
 }
 
 
-/*=======CONTEUDO DA PAGINA=========================================*/
+/*=======CONTEUDO PRINCIPAL DA PAGINA=========================================*/
 
-main{
-    
-margin-left: 22%;}
+main {
+    margin-left: 22%;
+}
 
 
 
 /*======= HEADER DA PAGINA==========================================*/
 
-/* 30% de 135  = 40.5*  94.5* */
 
 
 header {
@@ -194,7 +193,7 @@ iframe {
     margin-left: 3rem;
 }
 
-.titulos__post{
+.titulos__post {
     font-weight: 500;
     font-size: 2rem;
     color: var(--cor--titulo);
@@ -234,15 +233,15 @@ strong {
 .segunda__descricao {
     font-weight: 400;
     font-size: 1.2rem;
-    color: #ADA0A0.
+    color: #ADA0A0;
 }
 
 /*======= POST DE RESUMO  ==========================================*/
 
 .post__resumo {
-width: 105.8rem;
-margin-top: 3rem;
-    
+    width: 105.8rem;
+    margin-top: 3rem;
+
 }
 
 .post__resumo p {
@@ -296,7 +295,7 @@ span {
     width: 105.8rem;
     font-weight: 500;
     font-size: 2rem;
-    margin-top: 3rem;
+
 }
 
 .post__discussoes p {
@@ -366,7 +365,7 @@ span {
     display: none;
 }
 
-#formulario p {
+.titulo__form {
     font-weight: 400;
     font-size: 1.4rem;
     text-align: center;
@@ -396,6 +395,7 @@ span {
     font-family: 'Quicksand';
     font-size: 14px;
 
+
 }
 
 .barra__envio {
@@ -414,18 +414,23 @@ span {
     background: var(--cor--laranja);
     border: none;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 #cancelar__topico {
-    color: rgba(199, 57, 57, 0.827);
+    color: #827c7c;
     width: 20.5rem;
     height: 3.1rem;
     background: none;
     border: none;
-    font-weight: bold;
-    text-decoration: underline;
     cursor: pointer;
     font-size: 1.5rem;
+}
+
+#cancelar__topico:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(142, 6, 6);
 }
 
 .ferramentas {
@@ -447,6 +452,10 @@ span {
 
 /* ############ POSTAGENS CRIADAS ################*/
 
+.postagens__adicionadas{
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 .postagens {
     margin-top: 1.7rem;
