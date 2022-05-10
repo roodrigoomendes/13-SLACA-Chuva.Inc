@@ -394,7 +394,8 @@ span {
     text-align: center;
 }
 
-#formulario .assunto , .conteudo{
+#formulario .assunto,
+.conteudo {
     margin-top: 1rem;
     font-weight: 700;
     font-size: 1.6rem;
@@ -466,11 +467,11 @@ span {
 }
 
 
-
+/* ############ POSTAGENS CRIADAS ################*/
 
 
 .postagens {
-    margin-inline: 1.7rem;
+    margin-top: 1.7rem;
     padding-block: 1.7rem;
     padding-left: 2.4rem;
     width: 102.5rem;
@@ -485,15 +486,16 @@ span {
 
 }
 
-.nome__postagem{
+.nome__postagem {
     font-weight: 500;
     font-size: 1.2rem;
     margin-bottom: 3rem;
-    
+    color: #5C5C5C;
+
 }
 
 .conteudo__postagem {
-    
+
     font-family: 'Quicksand';
     font-weight: 400;
     font-size: 1.4rem;
@@ -502,19 +504,56 @@ span {
     text-align: start;
 }
 
-.informacao__post{
+.informacao__post {
     display: flex;
     margin-top: 1.1rem;
 }
 
-.informacao__post img{
-height: 1.9rem;
-margin-right: 1.5rem;
+.informacao__post img {
+    height: 1.9rem;
+    margin-right: 1.5rem;
 }
 
-.informacao__label{
+.informacao__label {
     margin-right: 1.5rem;
     font-weight: 400;
     font-size: 1.4rem;
     color: #757575;
+}
+
+
+/* ############ FOOTER ################*/
+
+footer{
+    width: 130rem;
+    margin-top: 4.3rem;
+    display: flex;
+}
+
+.logo__galoa{
+margin-right: 1rem;
+}
+
+.saiba__mais {
+    background: #341947;
+    border: none;
+    margin-left: 1rem;
+    width: 19rem;
+    font-size: 1.8rem;
+    padding: 0.5rem;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Quicksand';
+    font-weight: 400;
+
+}
+
+.label__footer {
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+.label__footer strong {
+    font-size: 1.8rem;
+    font-weight: 400;
 }
