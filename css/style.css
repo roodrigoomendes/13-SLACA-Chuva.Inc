@@ -452,7 +452,7 @@ span {
 
 /* ############ POSTAGENS CRIADAS ################*/
 
-.postagens__adicionadas{
+.postagens__adicionadas {
     display: flex;
     flex-direction: column-reverse;
 }
@@ -499,6 +499,7 @@ span {
 .informacao__post img {
     height: 1.9rem;
     margin-right: 1.5rem;
+    cursor: pointer;
 }
 
 .informacao__label {
@@ -508,6 +509,33 @@ span {
     color: #757575;
 }
 
+/* ############ POSTAGEM CRIADA COM SUCESSO ################*/
+
+#discussoes__sucesso {
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.8rem;
+}
+
+.link__descubra {
+    color: var(--cor--laranja);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#criar__topicoNovo {
+    width: 23.5rem;
+    height: 3.2rem;
+    color: white;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 /* ############ FOOTER ################*/
 

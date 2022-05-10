@@ -149,6 +149,7 @@
 
         <section class="post__discussoes">
             <h2 class="titulos__post">Discussões</h2>
+
             <div id="discussoes__padrao">
                 <p>Compartilhe suas ideias ou dúvidas com os autores!</p>
                 <div class="discussoes__icones">
@@ -159,16 +160,18 @@
                 </div>
                 <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus<br>
                     questionamentos ou sugestões para o autor!</p>
-            </div>
-            <div class="divisao__botao">
-                <button onclick="criartopico()" id="criar__topico">
-                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <rect x="7" width="3" height="17" rx="1" fill="white" />
-                        <rect y="10" width="3" height="17" rx="1" transform="rotate(-90 0 10)" fill="white" />
-                    </svg> criar tópico
-                </button>
 
+                <div class="divisao__botao">
+                    <button onclick="criartopico()" id="criar__topico">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="7" width="3" height="17" rx="1" fill="white" />
+                            <rect y="10" width="3" height="17" rx="1" transform="rotate(-90 0 10)" fill="white" />
+                        </svg> criar tópico
+                    </button>
+
+                </div>
             </div>
+
 
             <section id="formulario">
                 <p class="titulo__form">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p><br>
@@ -191,6 +194,19 @@
                     </div>
                 </div>
             </section>
+
+            <div id="discussoes__sucesso">
+                <label class="titulo__postagem">Seu tópico foi enviado com sucesso! :D</label>
+                <br>
+                <label class="conteudo__postagem">Agradecemos por sua contribuição, uma notificação será enviada ao seu
+                    email assim que seu tópico for
+                    respondido!</label>
+
+                <label class="conteudo__postagem link__descubra">Descubra outros trabalhos!</label>
+                <button onclick="criartopicoNovo()" id="criar__topicoNovo">
+                    criar tópico Novo
+                </button>
+            </div>
 
             <div class="divisao__botao">
             </div>

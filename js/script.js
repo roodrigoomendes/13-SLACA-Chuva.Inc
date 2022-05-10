@@ -23,14 +23,30 @@ function criartopico() {
     var padrao = document.getElementById("discussoes__padrao");
     var formulario = document.getElementById("formulario");
 
-
-    if (padrao.style.display === "inline") {
-        formulario.style.display = "inline"
+    if (padrao.style.display === "inline" ){
+        formulario.style.display = "inline" 
         padrao.style.display = "none"
-    } else {
-        padrao.style.display = "inline"
+        
+    }else{
+        padrao.style.display = "inline" 
         formulario.style.display = "none"
+    }
+}
 
+
+//FUNCAO CRIAR TOPICO DE SUCESSO >>
+
+function criartopicoNovo() {
+    var formulario = document.getElementById("formulario");
+    var sucesso = document.getElementById("discussoes__sucesso")
+
+    if (sucesso.style.display === "flex" ){
+        formulario.style.display = "inline" 
+        sucesso.style.display = "none"
+        
+    }else{
+        formulario.style.display = "none" 
+        sucesso.style.display = "flex"
     }
 }
 
@@ -44,6 +60,7 @@ function listarComentariostela(assunto, comentario) {
     var elementoComentario = "<div class='postagens__adicionadas'><section class='postagens'><h3 class='titulo__postagem'>" + assunto + "</h3><label class='nome__postagem'>Carlos Henrique Santos</label><br><br><label class='conteudo__postagem'>" + comentario + "</label><div class='informacao__post'><img src='/assets/PONTOS.SVG' alt=''><img src='/assets/favoritar.svg' alt=''><label class='informacao__label'>1 like</label><label class='informacao__label'>1 resposta</label></div></section>"
     var elementoComentario =
         listacomentarios.innerHTML = listacomentarios.innerHTML + elementoComentario
+        criartopicoNovo()
 }
 
 function adicionar__post() {
@@ -52,4 +69,5 @@ function adicionar__post() {
     listarComentariostela(campoassunto, campoconteudo)
 
 }
+
 
