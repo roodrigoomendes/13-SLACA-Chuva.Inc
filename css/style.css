@@ -333,12 +333,11 @@ span {
     text-align: center;
 }
 
-.post__discussoes p:nth-child(2) {
+.paragrafo__mensagem {
     margin-top: 1.5rem;
     font-weight: 700;
     font-size: 1.8rem;
-    line-height: 2.1rem;
-    text-align: center;
+
 
 }
 

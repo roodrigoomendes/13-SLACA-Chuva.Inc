@@ -1,5 +1,5 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1030px) {
 
     body {
         width: 100vw;
@@ -32,7 +32,8 @@
     }
 
     .opcoes_menu {
-        width: 100vw;
+        width: 100%;
+        padding: auto;
     }
 
     header {
@@ -45,11 +46,12 @@
     }
 
     .titulos {
-        display: flex;
-        margin: 0;
         padding: 0;
+        width: 100%;
+        display: flex;
         flex-direction: column;
-        margin-bottom: 1rem;
+        align-items: center;
+        justify-content: center;
     }
 
     .traducao__perfil {
@@ -73,14 +75,13 @@
         width: 100vw;
         display: flex;
         flex-direction: column;
-
-        margin-inline: auto;
+        margin-left: auto;
+        margin-right: ;
 
     }
 
     .post__video,
-    .video,
-    .titulo__video {
+    .video {
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -88,6 +89,11 @@
         padding-inline: auto;
         text-align: center;
 
+    }
+
+
+    .titulo__video {
+        width: 90%;
     }
 
     iframe {
@@ -132,12 +138,78 @@
         width: 100%;
     }
 
-    .post__discussoes{
-        display:none;
+    .postagens__adicionadas {
+
+        margin: 3rem 3rem
+    }
+
+    .post__discussoes {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
-    footer{
+    .post__discussoes h2,
+    .paragrafo__mensagem {
+        text-align: center;
+        width: 90vw;
+    }
+
+    .paragrafo__mensagem {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50vw;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #formulario,
+    #mensagem__envio,
+    .postagens {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    #txtassunto,
+    #txtconteudo,
+    .barra__envio {
+        width: 100%;
+        margin: 0;
+    }
+
+    .divisao__botao {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .botoes_formulario {
+        width: 43%;
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    #salvar__topico,
+    #cancelar__topico {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #cancelar__topico {
+        border: black solid 1px;
+    }
+
+
+
+    footer {
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -145,15 +217,16 @@
         align-items: center;
     }
 
-    .logo__galoa, .label__footer{
-        margin:0;
-        width:100%;
+    .logo__galoa,
+    .label__footer {
+        margin: 0;
+        width: 100%;
         justify-content: center;
         text-align: center;
         margin-bottom: 5rem;
     }
 
-    .label__footer{
+    .label__footer {
         display: none;
     }
 
