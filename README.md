@@ -3,13 +3,6 @@
 
 Pagina institucional do evento 13° Slaca para avaliação de estágio Front End. 
 
-## Figma
-<a href="https://www.figma.com/file/0D27YdXU8ibf0AhsBC2OEm" target="_blank">![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)</a>
-
-## Screenshots
-
-![](/assets/13_slaca.gif)
-
 ## Stack utilizada
 <div style="display: inline_block"><br>
   <img align="center" alt="roodrigoomendes-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
@@ -17,6 +10,23 @@ Pagina institucional do evento 13° Slaca para avaliação de estágio Front End
   <img align="center" alt="roodrigoomendes-JS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
   
 </div>
+
+
+## Figma
+<a href="https://www.figma.com/file/0D27YdXU8ibf0AhsBC2OEm" target="_blank">![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)</a>
+
+## Screenshots
+
+Desktop
+<br>
+![Desktop](/assets/13_slaca.gif)
+<br>
+
+
+Mobile
+<br>
+![Mobile](/assets/13_slaca_Mobile.gif)
+
 
 ## Autor
 
