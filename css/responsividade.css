@@ -113,17 +113,6 @@
         margin-inline: auto;
     }
 
-    .post__resumo {
-
-        width: 80vw;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        margin-left: 4rem;
-
-    }
 
     .post__resumo p {
 
@@ -143,14 +132,14 @@
         margin: 3rem 3rem
     }
 
-    .post__discussoes {
+    .post__discussoes,.post__resumo{
         width: 90vw;
         margin-left: auto;
         margin-right: auto;
     }
 
 
-    .post__discussoes h2,
+    .post__discussoes h2,.post__resumo h2,
     .paragrafo__mensagem {
         text-align: center;
         width: 90vw;
@@ -165,9 +154,10 @@
         justify-content: center;
     }
 
+
     #formulario,
     #mensagem__envio,
-    .postagens {
+    .postagens ,.postagens__resposta{
         width: 80vw;
         margin-left: auto;
         margin-right: auto;
