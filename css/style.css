@@ -131,6 +131,25 @@ header p {
     display: flex;
 }
 
+.botao_linguagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9.7rem;
+    height: 3.4rem;
+    border: #CCCCCC 1px solid;
+
+}
+
+select,
+option {
+    border: none;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
 .dados__perfil {
     margin-block: auto;
     margin-right: 0.6rem;
@@ -181,6 +200,7 @@ iframe {
 .opcoes__video {
     margin-bottom: 1.9rem;
     text-align: right;
+    cursor: pointer;
 }
 
 .opcoes__video h3 {
