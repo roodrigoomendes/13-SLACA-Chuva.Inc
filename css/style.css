@@ -74,6 +74,8 @@ aside {
 .opcoes_menu:hover {
     background: var(--cor--sobreado);
     font-weight: bold;
+    border-left: 5px solid #ed7839;
+
 }
 
 .active {
