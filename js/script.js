@@ -61,6 +61,7 @@ function listarComentariostela(assunto, comentario) {
     var elementoComentario =
         listacomentarios.innerHTML = listacomentarios.innerHTML + elementoComentario
     criartopicoNovo()
+    envioAparecer()
 }
 
 function adicionar__post() {
@@ -85,4 +86,21 @@ function historico__postagem() {
         historico.style.display = "none";
 
     }
+}
+
+
+
+
+//MENDAGEM APOS ENVIO >>>
+function envioAparecer(){
+    var mensagemenvio = document.getElementById("mensagem__envio")
+    mensagemenvio.style.display = 'flex';
+
+    setTimeout(envioDesaparecer, 1000 * 3);
+
+}
+
+function envioDesaparecer(){
+ var mensagemenvio = document.getElementById("mensagem__envio")
+ mensagemenvio.style.display = 'none';
 }

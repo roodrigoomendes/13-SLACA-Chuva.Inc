@@ -84,8 +84,7 @@ aside {
 
 }
 
-
-/*=======CONTEUDO PRINCIPAL DA PAGINA=========================================*/
+/*=======CONTEUDO PRINCIPAL DA PAGINA=================================*/
 
 main {
     margin-left: 22%;
@@ -178,6 +177,7 @@ option {
 
 
 /*======= AREA DE VIDEO  ==========================================*/
+
 .post__video {
     display: flex;
     margin-top: 2.7rem;
@@ -475,8 +475,8 @@ span {
 
 }
 
+/*======= POSTAGENS CRIADAS ==========================================*/
 
-/* ############ POSTAGENS CRIADAS ################*/
 
 .postagens__adicionadas {
     display: flex;
@@ -537,7 +537,7 @@ span {
     color: #757575;
 }
 
-/* ############ HISTORICO DE POSTAGEM ################*/
+/*======= HISTORICO DE POSTAGEM ==========================================*/
 
 
 .postagens__resposta {
@@ -572,11 +572,13 @@ span {
     margin-inline: 2.9rem;
 }
 
-.visualizar__historico {
+#visualizar__historico {
     display: none;
 }
 
-/* ############ POSTAGEM CRIADA COM SUCESSO ################*/
+
+/*======= POSTAGEM CRIADA COM SUCESSO  ==========================================*/
+
 
 #discussoes__sucesso {
     padding-block: 1.5rem;
@@ -604,7 +606,30 @@ span {
     cursor: pointer;
 }
 
-/* ############ FOOTER ################*/
+/*======= POSTAGEM AVISO APOS ENVIO  ==========================================*/
+
+
+.pos__envio {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2rem;
+    background-color: #E7E7E7;
+    opacity: 0.8;
+}
+
+
+.editar__topico {
+    color: var(--cor--laranja);
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+}
+
+
+/*======= FOOTER  ==========================================*/
 
 footer {
     width: 105.8rem;
@@ -640,3 +665,4 @@ footer {
     font-size: 1.8rem;
     font-weight: 400;
 }
+
