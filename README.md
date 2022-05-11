@@ -1,7 +1,10 @@
 
 ## 13 SLACA
 
-Pagina institucional do evento 13° Slaca para avaliação de estágio de Front End. 
+Pagina institucional do evento 13° Slaca para avaliação de estágio Front End. 
+
+## Figma
+<a href="https://www.figma.com/file/0D27YdXU8ibf0AhsBC2OEm" target="_blank">![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)</a>
 
 ## Screenshots
 
@@ -17,15 +20,12 @@ Pagina institucional do evento 13° Slaca para avaliação de estágio de Front 
 
 ## Autor
 
-<a href="https://github.com/roodrigoomendes.png">
- <img style="border-radius: 50%;" src="https://github.com/roodrigoomendes.png" width="100px;" alt=""/>
- <br />
- <sub><b>Rodrigo Mendes</b></sub></a> <a href="https://www.linkedin.com/in/rodrigomendes-/">🚀</a>
-
-
+<img style="border-radius: 50%;" src="https://github.com/roodrigoomendes.png" width="100px;" alt=""/><br>
+<br />
 Feito com ❤️ por Rodrigo Mendes 👋🏽 Entre em contato!
 <br/>
 
 
- <a href = "mailto:roodrigoomendessilva@gmail.com">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
+ <a href="mailto:roodrigoomendessilva@gmail.com">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
  <a href="https://www.linkedin.com/in/rodrigomendes-/" target="_blank">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a> 
+
