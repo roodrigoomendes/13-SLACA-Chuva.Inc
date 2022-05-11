@@ -57,7 +57,7 @@ function criartopicoNovo() {
 function listarComentariostela(assunto, comentario) {
 
     var listacomentarios = document.querySelector('.postagens__adicionadas')
-    var elementoComentario = "<div class='postagens__adicionadas'><div class='postagens__adicionadas'><section class='postagens'><h3 class='titulo__postagem'>" + assunto + "</h3><label class='nome__postagem'>Carlos Henrique Santos</label><br><br><label class='conteudo__postagem'>" + comentario + "</label><div class='informacao__post'><img src='/assets/PONTOS.SVG' alt=''><img src='/assets/favoritar.svg' alt=''><label class='informacao__label'>1 like</label><label class='informacao__label'>1 resposta</label></div></section></div>"
+    var elementoComentario = "<div class='postagens__adicionadas'><div class='postagens__adicionadas'><section class='postagens'><h3 class='titulo__postagem'>" + assunto + "</h3><label class='nome__postagem'>Anônimo</label><br><br><label class='conteudo__postagem'>" + comentario + "</label><div class='informacao__post'><img src='/assets/PONTOS.SVG' alt=''><img src='/assets/favoritar.svg' alt=''><label class='informacao__label'>1 like</label><label class='informacao__label'>1 resposta</label></div></section></div>"
     var elementoComentario =
         listacomentarios.innerHTML = listacomentarios.innerHTML + elementoComentario
     criartopicoNovo()
@@ -92,7 +92,7 @@ function historico__postagem() {
 
 
 //MENDAGEM APOS ENVIO >>>
-function envioAparecer(){
+function envioAparecer() {
     var mensagemenvio = document.getElementById("mensagem__envio")
     mensagemenvio.style.display = 'flex';
 
@@ -100,7 +100,7 @@ function envioAparecer(){
 
 }
 
-function envioDesaparecer(){
- var mensagemenvio = document.getElementById("mensagem__envio")
- mensagemenvio.style.display = 'none';
+function envioDesaparecer() {
+    var mensagemenvio = document.getElementById("mensagem__envio")
+    mensagemenvio.style.display = 'none';
 }
