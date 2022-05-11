@@ -25,7 +25,7 @@ Pagina institucional do evento 13° Slaca para avaliação de estágio de Front 
 
 Feito com ❤️ por Rodrigo Mendes 👋🏽 Entre em contato!
 <br/>
-[![Linkedin Badge](https://img.shields.io/badge/-Rodrigo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodrigomendes-/)](https://www.linkedin.com/in/rodrigomendes-/) 
-[![Gmail Badge](https://img.shields.io/badge/-roodrigoomendessilva@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:roodrigoomendessilva@gmail.com)](mailto:roodrigoomendessilva@gmail.com)
 
 
+ <a href = "mailto:roodrigoomendessilva@gmail.com">![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)</a>
+ <a href="https://www.linkedin.com/in/rodrigomendes-/" target="_blank">![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)</a> 
