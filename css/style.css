@@ -572,7 +572,7 @@ span {
     margin-inline: 2.9rem;
 }
 
-.visualizar__historico {
+#visualizar__historico {
     display: none;
 }
 
