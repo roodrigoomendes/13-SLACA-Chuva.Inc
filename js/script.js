@@ -96,7 +96,7 @@ function envioAparecer() {
     var mensagemenvio = document.getElementById("mensagem__envio")
     mensagemenvio.style.display = 'flex';
 
-    setTimeout(envioDesaparecer, 1000 * 3);
+    setTimeout(envioDesaparecer, 1000 * 6);
 
 }
 
