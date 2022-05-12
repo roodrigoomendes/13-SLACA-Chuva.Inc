@@ -22,11 +22,11 @@ body {
 
 :root {
 
-    --cor--laranja: #ED7839;
+    --cor--laranja:#ED7839;
     --cor--sobreado: #FDF1EB;
     --cor--titulo: #4E4E4E;
     --cor--titulo-2: #725C5C;
-
+    --cor--degrade: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
 }
 
 
@@ -45,7 +45,7 @@ aside {
     height: 6.8rem;
     font-size: 3rem;
     text-transform: uppercase;
-    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    background: var(--cor--degrade);
     color: white;
     display: flex;
     align-items: center;
@@ -74,12 +74,12 @@ aside {
 .opcoes_menu:hover {
     background: var(--cor--sobreado);
     font-weight: bold;
-    border-left: 5px solid #ed7839;
+    border-left: 5px solid var(--cor--laranja);
 
 }
 
 .active {
-    border-left: 10px solid #ed7839;
+    border-left: 10px solid var(--cor--laranja);
     background: var(--cor--sobreado);
 
 }
@@ -291,7 +291,7 @@ span {
     font-family: 'Quicksand';
     font-weight: 700;
     font-size: 1.4rem;
-    color: #ED7839;
+    color: var(--cor--laranja);
 }
 
 #menos,
@@ -366,7 +366,7 @@ span {
 
 #criar__topico {
     color: white;
-    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    background: var(--cor--degrade);
     width: 13.3rem;
     height: 3.2rem;
     font-size: 1.5rem;
@@ -598,7 +598,7 @@ span {
     width: 23.5rem;
     height: 3.2rem;
     color: white;
-    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    background: var(--cor--degrade);
     font-size: 1.5rem;
     border: none;
     border-radius: 4px;
